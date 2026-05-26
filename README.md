@@ -25,6 +25,8 @@ WE have data in a single table with information:
 - Bills-BillID, AppointmentID, Amount,Paid,BillDate
 - LabReports- ReportID, AppointmentID, ReportData,CreatedAt
 
+We also have doctors credentials information with doctorname and password.
+
 ## Problems solved with Database Design
 1. Lack of Unique Identifiers
 - Currently, we have no guaranteed unique IDs for patients, doctors, departments, or appointments.
